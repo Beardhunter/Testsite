@@ -3,14 +3,10 @@
         <meta charset="UTF8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <Title>Viewer</Title>
-        <link rel="stylesheet" href="system/base.css">
-        <link rel="stylesheet" href="system/character_viewer.css">
-        <script src="system/jquery.js"></script>
-        <script src="system/default.js"></script>
-        <script src="system/frame.js"></script>
-        <script src="system/func.js"></script>
-        <script src="system/viewer_html.js"></script>
-        <script src="system/character_viewer.js"></script>
+        <link rel="stylesheet" href="../system/base.css">
+        <link rel="stylesheet" href="character_viewer.css">
+        <script src="../system/jquery.js"></script>
+        <script src="viewer.js"></script>
     </head>
     <body>
         <div class="overlay"></div>
@@ -53,49 +49,49 @@
                 </div>
             </div>
             <div class="colored m_right m_left m_bottom" id="section_skill">
-                <div><span class="skillname">Acrobatics</span><span id="acro_skill" class="skillval">+0</span></div>
-                <div><span class="skillname">Animal Handling</span><span id="animal_skill" class="skillval">+0</span></div>
-                <div><span class="skillname">Athletics</span><span id="athletic_skill" class="skillval">+0</span></div>
-                <div><span class="skillname">Arcane</span><span id="arcane_skill" class="skillval">+0</span></div>
-                <div><span class="skillname">Deception</span><span id="decep_skill" class="skillval">+0</span></div>
-                <div><span class="skillname">Detection</span><span id="detect_skill" class="skillval">+0</span></div>
-                <div><span class="skillname">Initiative</span><span id="init_skill" class="skillval">+0</span></div>
-                <div><span class="skillname">Insight</span><span id="insight_skill" class="skillval">+0</span></div>
-                <div><span class="skillname">Intimidation</span><span id="intim_skill" class="skillval">+0</span></div>
-                <div><span class="skillname">Investigation</span><span id="invest_skill" class="skillval">+0</span></div>
-                <div><span class="skillname">Lore</span><span id="lore_skill" class="skillval">+0</span></div>
-                <div><span class="skillname">Medicine</span><span id="med_skill" class="skillval">+0</span></div>
-                <div><span class="skillname">Nature</span><span id="nature_skill" class="skillval">+0</span></div>
-                <div><span class="skillname">Performance</span><span id="perform_skill" class="skillval">+0</span></div>
-                <div><span class="skillname">Persuasion</span><span id="pers_skill" class="skillval">+0</span></div>
-                <div><span class="skillname">Religion</span><span id="relig_skill" class="skillval">+0</span></div>
-                <div><span class="skillname">Sleight of Hand</span><span id="slight_skill" class="skillval">+0</span></div>
-                <div><span class="skillname">Stealth</span><span id="stealth_skill" class="skillval">+0</span></div>
-                <div><span class="skillname">Survival</span><span id="surv_skill" class="skillval">+0</span></div>
-                <div><span class="skillname">Vehicle Mechanical</span><span id="v_mech_skill" class="skillval">+0</span></div>
-                <div><span class="skillname">Vehicle Nautical</span><span id="v_naut_skill" class="skillval">+0</span></div>
+                <div><span class="skillname">Acrobatics</span><span id="acro_skill" class="skillval">+2</span></div>
+                <div><span class="skillname">Animal Handling</span><span id="animal_skill" class="skillval">+2</span></div>
+                <div><span class="skillname">Athletics</span><span id="athletic_skill" class="skillval">+2</span></div>
+                <div><span class="skillname">Arcane</span><span id="arcane_skill" class="skillval">+2</span></div>
+                <div><span class="skillname">Deception</span><span id="decep_skill" class="skillval">+2</span></div>
+                <div><span class="skillname">Detection</span><span id="detect_skill" class="skillval">+2</span></div>
+                <div><span class="skillname">Initiative</span><span id="init_skill" class="skillval">+2</span></div>
+                <div><span class="skillname">Insight</span><span id="insight_skill" class="skillval">+2</span></div>
+                <div><span class="skillname">Intimidation</span><span id="intim_skill" class="skillval">+2</span></div>
+                <div><span class="skillname">Investigation</span><span id="invest_skill" class="skillval">+2</span></div>
+                <div><span class="skillname">Lore</span><span id="lore_skill" class="skillval">+2</span></div>
+                <div><span class="skillname">Medicine</span><span id="med_skill" class="skillval">+2</span></div>
+                <div><span class="skillname">Nature</span><span id="nature_skill" class="skillval">+2</span></div>
+                <div><span class="skillname">Performance</span><span id="perform_skill" class="skillval">+2</span></div>
+                <div><span class="skillname">Persuasion</span><span id="pers_skill" class="skillval">+2</span></div>
+                <div><span class="skillname">Religion</span><span id="relig_skill" class="skillval">+2</span></div>
+                <div><span class="skillname">Sleight of Hand</span><span id="slight_skill" class="skillval">+2</span></div>
+                <div><span class="skillname">Stealth</span><span id="stealth_skill" class="skillval">+2</span></div>
+                <div><span class="skillname">Survival</span><span id="surv_skill" class="skillval">+2</span></div>
+                <div><span class="skillname">Vehicle Mechanical</span><span id="v_mech_skill" class="skillval">+2</span></div>
+                <div><span class="skillname">Vehicle Nautical</span><span id="v_naut_skill" class="skillval">+2</span></div>
             </div>
             <div class="colored m_right m_left m_top" id="section_tool">
-                <div><span class="skillname">Alchemy</span><span id="alch_skill" class="skillval">+0</span></div>
-                <div><span class="skillname">Artistry</span><span id="artist_skill" class="skillval">+0</span></div>
-                <div><span class="skillname">Cooking</span><span id="cook_skill" class="skillval">+0</span></div>
-                <div><span class="skillname">Construction</span><span id="construct_skill" class="skillval">+0</span></div>
-                <div><span class="skillname">Disguise</span><span id="disguise_skill" class="skillval">+0</span></div>
-                <div><span class="skillname">Enchanting</span><span id="enchant_skill" class="skillval">+0</span></div>
-                <div><span class="skillname">Forgery</span><span id="forgery_skill" class="skillval">+0</span></div>
-                <div><span class="skillname">Gadgetry</span><span id="gadget_skill" class="skillval">+0</span></div>
-                <div><span class="skillname">Gun Crafting</span><span id="guncraft_skill" class="skillval">+0</span></div>
-                <div><span class="skillname">Harvesting</span><span id="harvest_skill" class="skillval">+0</span></div>
-                <div><span class="skillname">Smithing</span><span id="smith_skill" class="skillval">+0</span></div>
-                <div><span class="skillname">Thieves Tools</span><span id="thieve_skill" class="skillval">+0</span></div>
-                <div><span class="skillname">Trapping</span><span id="trap_skill" class="skillval">+0</span></div>
-                <div><span class="skillname">Weaving</span><span id="weave_skill" class="skillval">+0</span></div>
+                <div><span class="skillname">Alchemy</span><span id="alch_skill" class="skillval">+2</span></div>
+                <div><span class="skillname">Artistry</span><span id="artist_skill" class="skillval">+2</span></div>
+                <div><span class="skillname">Cooking</span><span id="cook_skill" class="skillval">+2</span></div>
+                <div><span class="skillname">Construction</span><span id="construct_skill" class="skillval">+2</span></div>
+                <div><span class="skillname">Disguise</span><span id="disguise_skill" class="skillval">+2</span></div>
+                <div><span class="skillname">Enchanting</span><span id="enchant_skill" class="skillval">+2</span></div>
+                <div><span class="skillname">Forgery</span><span id="forgery_skill" class="skillval">+2</span></div>
+                <div><span class="skillname">Gadgetry</span><span id="gadget_skill" class="skillval">+2</span></div>
+                <div><span class="skillname">Gun Crafting</span><span id="guncraft_skill" class="skillval">+2</span></div>
+                <div><span class="skillname">Harvesting</span><span id="harvest_skill" class="skillval">+2</span></div>
+                <div><span class="skillname">Smithing</span><span id="smith_skill" class="skillval">+2</span></div>
+                <div><span class="skillname">Thieves Tools</span><span id="thieve_skill" class="skillval">+2</span></div>
+                <div><span class="skillname">Trapping</span><span id="trap_skill" class="skillval">+2</span></div>
+                <div><span class="skillname">Weaving</span><span id="weave_skill" class="skillval">+2</span></div>
             </div>
             <div class="colored m_bottom m_left" id="section_info">
-                <div id="charname">name</div>
-                <div id="charlevel">level </div>
-                <div id="charclasses">Class</div>
-                <div id="charevo">Evolution</div>
+                <div id="charname">test name </div>
+                <div id="charlevel">test name </div>
+                <div id="charclasses">Gunsligner (5) / Sharpshooter (2)</div>
+                <div id="charevo">Gunsligner (5) / Sharpshooter (2)</div>
             </div>
             <div class="colored m_top m_left m_right" id="section_feature">
                 <div class="tabs">
