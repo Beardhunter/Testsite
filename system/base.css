@@ -1,0 +1,24 @@
+body {
+    background-color: rgb(0, 0, 0);
+    color:white;
+    margin: 0px;
+    font-size:1.3vw;
+}
+
+.colored{
+    background: #7b1c1c;
+}
+
+.onhover:hover {
+    background:aqua;
+    color:black;
+}
+
+.selected{
+    background:yellow;
+    color:black;
+}
+
+.btn {
+    user-select: none;
+}
