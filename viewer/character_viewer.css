@@ -18,7 +18,11 @@
 
 @media only screen and (max-height: 1000px) {
     #section_skill, #section_tool {
-      font-size: 90%;
+      font-size: 94%;
+    }
+
+    #weapon_table{
+        font-size: 85%;
     }
   }
 
@@ -144,8 +148,8 @@ div#section_attacks{
     width: 100%;
     border: none;
 }
-
-table{
+#weapon_table{
+    font-size: 95%;
     width: 100%;
     border-spacing: 0px;
     -webkit-user-select: none;
