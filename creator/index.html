@@ -1,0 +1,141 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <Title>Creator</Title>
+        <link rel="stylesheet" href="system/base.css">
+        <link rel="stylesheet" href="character_creator.css">
+        <script src="system/jquery.js"></script>
+        <script src="creator.js"></script>
+    </head>
+    <body>
+        <div class="tabs colored">
+            <div id="tab_info" class="btn onhover">Home</div>
+            <div id="tab_prof" class="btn onhover">Profession</div>
+            <div id="tab_evo" class="btn onhover">Evolution</div>
+            <div id="tab_ancestry" class="btn onhover">Ancestry</div>
+            <div id="tab_traits" class="btn onhover">Origin & Traits</div>
+            <div id="tab_score" class="btn onhover">Ability Score</div>
+            <div id="tab_equipment" class="btn onhover">Equipment</div>
+            <div id="tab_final" class="btn onhover">Finalise</div>
+        </div>
+        <div id="content_root">
+
+            <!-- Info -------------------------------------------------------------------- -->
+            <div class="content info">
+                <div class="colored">Welcome Text</div>
+                <div class="colored">
+                    <div><button class="importchar">Import</button></div>
+                    <div>Name: <input id="nameinput" type="text"/></div>
+                    <div>Levels: <input id="lvlinput" type="number"/></div>
+                    <div>Max Health: <input id="healthinput" type="number"/></div>
+                    <div>Backstory: <textarea></textarea></div>
+                </div>
+            </div>
+
+            <!-- Ancestry -------------------------------------------------------------------- -->
+            <div class="content maingrid ancestry">
+                <div class="vert_select colored"></div>
+                <div class="featbtncon colored">
+                    <div class="corebtn btn"><div>core</div></div>
+                    <div class="featurebtn btn"><div>Features</div></div>
+                </div>
+                <div class="featurelist colored"></div>
+                <div class="overview colored"></div>
+                <div class="coreskill colored"></div>
+                <div class="artsection colored"></div>
+            </div>
+
+            <!-- Profession -------------------------------------------------------------------- -->
+            <div class="content maingrid profession">
+                <div class="vert_select colored"><div id="addmulti", class="btn">ADD CLASS</div></div>
+                <div class="featbtncon colored">
+                    <div class="corebtn btn"><div>core</div></div>
+                    <div class="featurebtn btn"><div>Features</div></div>
+                </div>
+                <div class="featurelist colored"></div>
+                <div class="overview colored"></div>
+                <div class="coreskill colored"></div>
+                <div class="artsection colored"></div>
+            </div>
+
+            <!-- Evolutions -------------------------------------------------------------------- -->
+            <div class="content maingrid evolution">
+                <div class="vert_select colored"></div>
+                <div class="featbtncon colored">
+                    <div class="corebtn btn"><div>core</div></div>
+                    <div class="featurebtn btn"><div>Features</div></div>
+                </div>
+                <div class="featurelist colored"></div>
+                <div class="overview colored"></div>
+                <div class="coreskill colored"></div>
+                <div class="artsection colored"></div>
+            </div>
+
+            <div class="content traits">
+                <div class="colored">
+                    <div class="">Trait:</div>
+                    <div id="traitroot"></div>
+                </div>
+            </div>
+
+            <div class="content equipment">
+                
+            </div>
+
+            <div class="content scores">
+                <div class="scoreroot colored">
+                    <div class="scorecon">
+                        <div class="scoretitle">Brawn</div>
+                        <input id="brwinput" class="scoreinput" type="number"/>
+                    </div>
+                    <div class="scorecon">
+                        <div class="scoretitle">Awareness</div>
+                        <input id="awrinput" class="scoreinput" type="number"/>
+                    </div>
+                    <div class="scorecon">
+                        <div class="scoretitle">Agility</div>
+                        <input id="aglinput" class="scoreinput" type="number"/>
+                    </div>
+                    <div class="scorecon">
+                        <div class="scoretitle">Endurence</div>
+                        <input id="endinput" class="scoreinput" type="number"/>
+                    </div>
+                    <div class="scorecon">
+                        <div class="scoretitle">Knowledge</div>
+                        <input id="knowinput" class="scoreinput" type="number"/>
+                    </div>
+                    <div class="scorecon">
+                        <div class="scoretitle">Instinct</div>
+                        <input id="instinput" class="scoreinput" type="number"/>
+                    </div>
+                    <div class="scorecon">
+                        <div class="scoretitle">Presence</div>
+                        <input id="perinput" class="scoreinput" type="number"/>
+                    </div>
+                </div>
+                <div class="colored">
+                    Ability score increase at 5, 9, 13, 17 
+                </div>
+            </div>
+
+            <div class="content final">
+                <button class="savebtn">Save</button>
+            </div>
+
+        </div>
+        <!-- <div id="choice_panel_root">
+            <div id="choice_panel">
+                <div id="panel_content" class="choice_content grid_pattern colored">
+                    
+                </div>
+                <div id="choice_accept" class="choice_btn onhover btn">
+                    Accept
+                </div>
+                <div id="choice_close" class="choice_btn onhover btn">
+                    Close
+                </div>
+            </div>
+        </div>-->
+    </body>
+</html>

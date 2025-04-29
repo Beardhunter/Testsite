@@ -23,9 +23,9 @@
     right: 84.1%;
     bottom: 45%;
     padding: 0.5%;
-    overflow-y: auto;
-    scrollbar-width: thin;
-    scrollbar-gutter: stable;
+	overflow-y: auto;
+	scrollbar-width: thin;
+	scrollbar-gutter: stable;
 }
 
 #section_tool {
@@ -35,10 +35,11 @@
     right: 84.1%;
     bottom: 0;
     padding: 0.5%;
-    overflow-y: auto;
-    scrollbar-width: thin;
-    scrollbar-gutter: stable;
+	overflow-y: auto;
+	scrollbar-width: thin;
+	scrollbar-gutter: stable;
 }
+
 #section_skill > div, #section_tool > div {
     padding: 1%;
     border-bottom: 2px solid black;
